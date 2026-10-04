@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.clawhub/
+_meta.json
+skill-card.md
+.env
+.env.*
+!.env.example
+*.wav
+*.mp3
+*.m4a
+*.pdf
+.venv/
+node_modules/
