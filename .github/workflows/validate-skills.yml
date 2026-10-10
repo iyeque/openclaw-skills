@@ -37,7 +37,7 @@ jobs:
           PY
       - name: Syntax checks
         run: |
-          python3 -m py_compile -q skills/audio-processing/tool.py skills/local-system-info/sysinfo.py skills/pdf-reader/reader.py
+          python3 -m py_compile -q skills/audio-processing/tool.py skills/local-system-info/sysinfo.py skills/pdf-reader/reader.py skills/meeting-transcription/meeting.py
           node --check skills/unified-web-search/index.js
           node --check skills/device-control/ctl.js
           find . -type d -name __pycache__ -prune -exec rm -rf {} +

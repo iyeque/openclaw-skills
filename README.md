@@ -22,6 +22,7 @@ openclaw skills install @iyeque/iyeque-unified-web-search
 openclaw skills install @iyeque/iyeque-device-control
 openclaw skills install @iyeque/iyeque-local-system-info
 openclaw skills install @iyeque/iyeque-pdf-reader
+openclaw skills install @iyeque/meeting-transcription
 ```
 
 ## Examples
@@ -31,6 +32,7 @@ openclaw skills install @iyeque/iyeque-pdf-reader
 - [Device Control](examples/device-control.md)
 - [Local System Info](examples/local-system-info.md)
 - [PDF Reader](examples/pdf-reader.md)
+- [Meeting Transcription](examples/meeting-transcription.md)
 
 ## Support and security
 
@@ -62,7 +64,7 @@ Keep the ClawHub package and repository contents aligned. Do not commit `.clawhu
 
 The next productized workflows are planned around recognizable user outcomes rather than more isolated utilities:
 
-1. Meeting transcription with subtitles and structured notes.
+1. Meeting transcription with subtitles and structured notes. **In progress as the first workflow skill.**
 2. PDF evidence extraction with page citations.
 3. Evidence-first research workspace combining web and local sources.
 4. A local speech service only after the workflow skills demonstrate demand.
