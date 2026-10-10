@@ -1,0 +1,20 @@
+name: Security concern
+description: Report a suspected security or privacy issue.
+title: "[Security]: "
+labels: [security]
+body:
+  - type: markdown
+    attributes:
+      value: "For sensitive vulnerabilities, use private GitHub vulnerability reporting or contact the maintainer privately. Do not include secrets or private data here."
+  - type: input
+    id: skill
+    attributes:
+      label: Affected skill and version
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and sanitized reproduction
+    validations:
+      required: true

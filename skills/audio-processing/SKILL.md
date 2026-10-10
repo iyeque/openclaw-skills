@@ -8,7 +8,7 @@ metadata:
     requires:
       bins: ["ffmpeg", "python3"]
       pip: ["openai-whisper", "gTTS", "librosa", "numpy"]
-    version: "1.3.0"
+    version: "1.3.1"
 ---
 
 # Privacy-first audio toolkit
@@ -41,3 +41,9 @@ python tool.py tts --text "Hello" --output_path hello.mp3 --lang en --allow-netw
 ```
 
 FFmpeg uses an argument list without a shell, bounded execution time, and stripped output metadata. The package must contain only intentional source files; never publish `__pycache__`, `.pyc`, `.pyo`, or `.pyd` artifacts.
+
+## Source and support
+
+Source: https://github.com/iyeque/openclaw-skills/tree/main/skills/audio-processing
+
+Report bugs and security concerns through the repository issue guidance.

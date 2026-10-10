@@ -8,7 +8,7 @@ metadata:
     requires:
       bins: ["python3"]
       pip: ["psutil"]
-    version: "1.2.1"
+    version: "1.2.2"
 ---
 
 # Local system diagnostics
@@ -26,3 +26,9 @@ uv run --with psutil sysinfo.py processes --limit 10
 Actions are `summary`, `cpu`, `memory`, `disk`, and `processes`. Output is JSON. Process limits are bounded from 1 to 100; use `--include-owners` only for an explicit owner-attribution request. Load averages are normalized by logical CPU count where the platform provides them; Windows may return an empty list.
 
 Use `summary` before expensive local work, `memory` and `disk` before model/PDF/audio jobs, and `processes` when diagnosing contention. Treat values as a point-in-time observation rather than a continuous monitor.
+
+## Source and support
+
+Source: https://github.com/iyeque/openclaw-skills/tree/main/skills/local-system-info
+
+Report bugs and security concerns through the repository issue guidance.

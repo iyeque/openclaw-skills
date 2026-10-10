@@ -8,7 +8,7 @@ metadata:
     requires:
       bins: ["python3"]
       pip: ["PyMuPDF"]
-    version: "1.2.1"
+    version: "1.2.2"
 ---
 
 # Searchable PDF reader
@@ -24,3 +24,9 @@ python3 reader.py metadata report.pdf
 ```
 
 `extract` returns the text and pages read. `search` returns matching page numbers, match counts, and bounded page context. `metadata` returns page count and PyMuPDF metadata. Encrypted PDFs that require a password return a clear error; do not place passwords in command arguments when shell history or logs could expose them.
+
+## Source and support
+
+Source: https://github.com/iyeque/openclaw-skills/tree/main/skills/pdf-reader
+
+Report bugs and security concerns through the repository issue guidance.

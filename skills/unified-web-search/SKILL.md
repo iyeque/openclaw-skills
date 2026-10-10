@@ -7,7 +7,7 @@ metadata:
     emoji: "🔍"
     requires:
       bins: ["node"]
-    version: "1.3.1"
+    version: "1.3.2"
 ---
 
 # Evidence-first unified search
@@ -31,3 +31,9 @@ node index.js --query "AI developments" --sources '["tavily","local"]' --max_res
 - Queries are trimmed and capped at 500 characters; `max_results` is 1–50.
 
 Each result includes a source label, title, URL when available, score, and content/snippet. Treat network results as external evidence and verify important claims before relying on them.
+
+## Source and support
+
+Source: https://github.com/iyeque/openclaw-skills/tree/main/skills/unified-web-search
+
+Report bugs and security concerns through the repository issue guidance.

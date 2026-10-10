@@ -2,17 +2,17 @@
 
 Focused, security-reviewed skills for practical OpenClaw workflows.
 
-These skills are designed around explicit capabilities, bounded inputs, predictable JSON output, and clear data boundaries. Each skill is also published on [ClawHub](https://clawhub.ai/) under `@iyeque`.
+These skills are designed around explicit capabilities, bounded inputs, predictable JSON output, and clear data boundaries. Each skill is also published on [ClawHub](https://clawhub.ai/) under `@iyeque`. Source, examples, and issue tracking live in this repository.
 
 ## Skills
 
 | Skill | Purpose | Current ClawHub version |
 |---|---|---:|
-| [Audio Processing](skills/audio-processing/SKILL.md) | Privacy-first local transcription, speech segmentation, feature extraction, and deterministic audio transforms | 1.3.0 |
-| [Unified Web Search](skills/unified-web-search/SKILL.md) | Evidence-first web and workspace search with explicit network/local opt-in | 1.3.1 |
-| [Device Control](skills/device-control/SKILL.md) | Bounded volume, brightness, and allowlisted application controls | 1.3.0 |
-| [Local System Info](skills/local-system-info/SKILL.md) | Read-only CPU, memory, disk, load, and bounded process diagnostics | 1.2.1 |
-| [PDF Reader](skills/pdf-reader/SKILL.md) | Bounded PDF extraction, full-text search, and metadata inspection | 1.2.1 |
+| [Audio Processing](skills/audio-processing/SKILL.md) | Privacy-first local transcription, speech segmentation, feature extraction, and deterministic audio transforms | 1.3.1 |
+| [Unified Web Search](skills/unified-web-search/SKILL.md) | Evidence-first web and workspace search with explicit network/local opt-in | 1.3.2 |
+| [Device Control](skills/device-control/SKILL.md) | Bounded volume, brightness, and allowlisted application controls | 1.3.1 |
+| [Local System Info](skills/local-system-info/SKILL.md) | Read-only CPU, memory, disk, load, and bounded process diagnostics | 1.2.2 |
+| [PDF Reader](skills/pdf-reader/SKILL.md) | Bounded PDF extraction, full-text search, and metadata inspection | 1.2.2 |
 
 ## Install from ClawHub
 
@@ -23,6 +23,18 @@ openclaw skills install @iyeque/iyeque-device-control
 openclaw skills install @iyeque/iyeque-local-system-info
 openclaw skills install @iyeque/iyeque-pdf-reader
 ```
+
+## Examples
+
+- [Audio Processing](examples/audio-processing.md)
+- [Unified Web Search](examples/unified-web-search.md)
+- [Device Control](examples/device-control.md)
+- [Local System Info](examples/local-system-info.md)
+- [PDF Reader](examples/pdf-reader.md)
+
+## Support and security
+
+Use the issue templates for reproducible bugs and feature requests. Read [SECURITY.md](SECURITY.md) before reporting a suspected vulnerability. Do not post credentials, private documents, recordings, or personal data in public issues.
 
 ## Security model
 
